@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration</title>
+    <style>
+        form {
+            border: 2px solid black;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        input, select {
+            display: block;
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <form id="1">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Пароль" required>
+        <button type="submit">Отправить</button>
+        <button type="button" onclick="clearForm('loginForm')">Очистить</button>
+    </form>
+
+   
+    <form id="2">
+        <input type="text" placeholder="Имя" required>
+        <input type="text" placeholder="Фамилия" required>
+        <input type="tel" placeholder="Телефон" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Пароль" required>
+        <select required>
+            <option value="">Выберите пол</option>
+            <option value="male">Мужской</option>
+            <option value="female">Женский</option>
+        </select>
+        <button type="submit">Зарегистрироваться</button>
+        <button type="button" onclick="clearForm('registerForm')">Очистить</button>
+    </form>
+
+
+
+</body>
+</html>
