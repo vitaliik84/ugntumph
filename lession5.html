@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стили элементов</title>
+    <style>
+        /* Блок с большими внутренними отступами */
+        .padding-large {
+            padding: 40px;
+            background-color: lightcoral;
+            text-align: center;
+        }
+
+        /* Блок с внешними отступами и фиксированными размерами */
+        .fixed-size {
+            margin: 20px;
+            width: 250px;
+            height: 100px;
+            background-color: lightblue;
+            text-align: right;
+        }
+
+        /* Блок с отступами и текстом по ширине */
+        .text-justify {
+            padding: 20px;
+            margin: 10px;
+            background-color: lightgreen;
+            text-align: justify;
+        }
+
+        /* Блок с выравниванием текста по центру */
+        .text-center {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: lightyellow;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="padding-large">
+        <p>Большой padding со всех сторон и центрированный текст.</p>
+    </div>
+
+    <div class="fixed-size">
+        <p>Фиксированные ширина и высота, текст справа.</p>
+    </div>
+
+    <div class="text-justify">
+        <p>Выравнивание текста по ширине. Этот блок показывает, как текст равномерно заполняет доступное пространство.</p>
+    </div>
+
+    <div class="text-center">
+        <p>Центрированный текст с внутренними отступами и шириной 80% от экрана.</p>
+    </div>
+
+</body>
+</html>
