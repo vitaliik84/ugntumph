@@ -1,0 +1,45 @@
+/* Стили для любого параграфа */
+p {
+    font-family: 'Rubik Wet Paint', sans-serif;
+    color: blue;
+    text-decoration: underline solid red;
+}
+
+/* Стили для параграфа, находящегося внутри div */
+div p {
+    font-family: 'Kablammo', cursive;
+    color: green;
+    text-decoration: line-through solid blue;
+}
+
+/* Стили для первого параграфа на странице */
+p:first-of-type {
+    color: purple;
+    font-size: 18px;
+    text-decoration: overline dashed orange;
+}
+
+/* Стили для последнего параграфа */
+p:last-of-type {
+    color: brown;
+    font-size: 18px;
+    text-decoration: underline wavy green;
+}
+
+/* Стили для всех элементов внутри тега body */
+body * {
+    margin: 10px 0;
+}
+
+/* Стили для всех элементов, имеющих класс .highlight */
+.highlight {
+    background-color: yellow;
+    text-decoration: underline dotted red;
+}
+
+/* Стили для элементов p внутри .container */
+.container p {
+    font-size: 20px;
+    color: darkcyan;
+    text-decoration: overline double purple;
+}
