@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box; /* Устанавливаем box-sizing для всех элементов */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Цвет фона страницы */
+    margin: 0;
+    padding: 20px; /* Отступы для тела документа */
+}
+
+.box {
+    background-color: #cce5ff; /* Цвет фона блоков */
+    border: 2px solid #004085; /* Цвет границы блоков */
+    width: 300px; /* Ширина блоков */
+    height: 100px; /* Высота блоков */
+    margin: 10px; /* Отступы между блоками */
+    padding: 20px; /* Внутренние отступы */
+    text-align: center; /* Центрируем текст */
+    color: #004085; /* Цвет текста */
+}
+
+.left {
+    text-align: left; /* Левое выравнивание текста */
+}
+
+.center {
+    text-align: center; /* Центральное выравнивание текста */
+}
+
+.right {
+    text-align: right; /* Правое выравнивание текста */
+}
+
+.justify {
+    text-align: justify; /* Выравнивание текста по ширине */
+}
+
+.padding {
+    padding: 40px; /* Увеличенный внутренний отступ */
+}
+
+.margin {
+    margin: 30px; /* Увеличенный внешний отступ */
+}
+
+.border {
+    border: 5px dashed #ff0000; /* Дашированная граница */
+}
+
+.box-sizing {
+    box-sizing: content-box; /* Изменение поведения box-sizing */
+}
