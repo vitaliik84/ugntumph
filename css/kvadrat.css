@@ -1,53 +1,53 @@
 * {
-    box-sizing: border-box; /* Устанавливаем box-sizing для всех элементов */
+    box-sizing: border-box; 
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Цвет фона страницы */
+    background-color: #f0f0f0; 
     margin: 0;
-    padding: 20px; /* Отступы для тела документа */
+    padding: 20px; 
 }
 
 .box {
-    background-color: #cce5ff; /* Цвет фона блоков */
-    border: 2px solid #004085; /* Цвет границы блоков */
-    width: 300px; /* Ширина блоков */
-    height: 100px; /* Высота блоков */
-    margin: 10px; /* Отступы между блоками */
-    padding: 20px; /* Внутренние отступы */
-    text-align: center; /* Центрируем текст */
-    color: #004085; /* Цвет текста */
+    background-color: #cce5ff; 
+    border: 2px solid #004085; 
+    width: 300px; 
+    height: 100px; 
+    margin: 10px; 
+    padding: 20px; 
+    text-align: center; 
+    color: #004085; 
 }
 
 .left {
-    text-align: left; /* Левое выравнивание текста */
+    text-align: left; 
 }
 
 .center {
-    text-align: center; /* Центральное выравнивание текста */
+    text-align: center; 
 }
 
 .right {
-    text-align: right; /* Правое выравнивание текста */
+    text-align: right; 
 }
 
 .justify {
-    text-align: justify; /* Выравнивание текста по ширине */
+    text-align: justify; 
 }
 
 .padding {
-    padding: 40px; /* Увеличенный внутренний отступ */
+    padding: 40px; 
 }
 
 .margin {
-    margin: 30px; /* Увеличенный внешний отступ */
+    margin: 30px; 
 }
 
 .border {
-    border: 5px dashed #ff0000; /* Дашированная граница */
+    border: 5px dashed #ff0000; 
 }
 
 .box-sizing {
-    box-sizing: content-box; /* Изменение поведения box-sizing */
+    box-sizing: content-box; 
 }
