@@ -1,0 +1,28 @@
+.header {
+    background-color: #07203f;
+    padding: 50px 0;
+    border-bottom:  1px solid grey;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nickname {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.header__nav {
+    display:flex;
+    gap: 40px;
+}
+
+.header__nav a {
+    font-family: "Inter", sent-serif;
+    color:#ffffff;
+    font-size: 36px;
+}
