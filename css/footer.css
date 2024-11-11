@@ -1,27 +1,27 @@
-.header {
+.low_low {
     background-color: #07203f;
     padding: 50px 0;
-    border-bottom:  1px solid grey;
+    border-top:  1px solid gainsboro;
 }
 
-.header__content {
+.low__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header__nickname {
+.low__nickname {
     color: #ffffff;
     font-weight: bolder;
     font-size: 36px;
 }
 
-.header__nav {
+.low__nav {
     display:flex;
     gap: 40px;
 }
 
-.header__nav a {
+.low__nav a {
     font-family: "Inter", sent-serif;
     color:#ffffff;
     font-size: 36px;

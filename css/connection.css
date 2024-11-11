@@ -1,0 +1,74 @@
+.connection {
+    background-image: url("https://s3-alpha-sig.figma.com/img/f4d8/368f/21dcf520c4acf394d42a992466a3d7f9?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LYC4AhgsaiKYg5s93AkHv3JcluqtnyOGghtOryf5VfsmrijKAapYyaLWMsc6iaxlwtxoWb3KRxaGpGC10lZBeb5OifJdtzf-Bl2lHmnA7eAY2BVJ7suRYr9MzGXBvf8Fv55oUVJlNjnUgVz99hhFNokR5R8B6gZDHbLPPOMWGGCJd9CdAzCHKjTnfNaOlMDigLZVdOYkTnp0CK1OK74k6Jzfnd9C432QRo2p201ZyC7CPYKv7ftxnOPZPWlVpNC1XbPgNNqpgy4kYqy885fc2DeipPvFhoM~m53Vj3rO6iN5qV283hRjg83kgUWJQbCxDO4DjZjzQM615o8hIuyMUQ__");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: calc(100vh - 144px);
+    display: flex;
+    align-items: center;
+}
+
+.connection__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 87.77px;
+    text-align: center;
+    color:#333333;
+    margin-bottom: 65px;
+}
+
+.connection__class {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.connection__block {
+    max-height: 350px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.connection__block:nth-child(2n + 1) {
+    background-color:#07203F;
+ }
+ 
+ .connection__block:nth-child(2n) {
+     background-color:#D9AA90;
+ }
+
+ .connection__name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58.51px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.connection__button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48.76px;
+    text-align: center;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 50px;
+    color: #000000;
+    padding: 10px 20px;
+    width: 298.9px;
+    height: 69.3px;
+}
+
+.connection__button:hover {
+    background-color: blue; 
+    color: #D9D9D9;
+}

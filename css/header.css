@@ -1,41 +1,28 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
-
-body {
-    font-family: 'Rubik Wet Paint', sans-serif;
-    background-color: rgb(194, 194, 212);
-}
-
 .header {
     background-color: #07203f;
-    padding: 50px;
-    width: fit-content;
-    display: block;
+    padding: 50px 0;
+    border-bottom:  1px solid grey;
 }
 
-.container {
+.header__content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    gap: 55px;
+    justify-content: space-between;
 }
 
-.nickname {
+.header__nickname {
     color: #ffffff;
     font-weight: bolder;
     font-size: 36px;
 }
 
-.nav {
-    display: flex;
+.header__nav {
+    display:flex;
     gap: 40px;
 }
 
-.nav a {
-    font-family: 'Kablammo', sans-serif;
-    color: #ffffff;
+.header__nav a {
+    font-family: "Inter", sent-serif;
+    color:#ffffff;
     font-size: 36px;
 }
-</style>
-

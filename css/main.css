@@ -1,4 +1,17 @@
+
 @import url("container.css");
-@import url("header1.css");
+@import url("header.css");
 @import url("description.css");
 @import url("body.css");
+@import url("section1.css");
+@import url("info.css");
+@import url("connection.css");
+@import url("html.css");
+@import url("footer.css");
+
+
+
+main {
+	flex: 1 1 auto;
+}
+

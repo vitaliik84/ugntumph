@@ -1,5 +1,5 @@
 .description {
-    background-color: blue;
+    background-color: #07203f;
     min-height: calc(100vh - 144px);
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
     background-color: #D9D9D9;
     color: #000000;
     font-family: "Inter", sans-serif;
-    border-radius: 30px;
+    border-radius: 53px;
     text-align: center;
     cursor: pointer;
     display: inline-block;
@@ -45,8 +45,8 @@
 }
 
 .description__button:hover {
-    background-color: red; 
-    color: #D9D9D9  ;
+    background-color: blue; 
+    color: #D9D9D9;
 }
 
 .description__text p {
