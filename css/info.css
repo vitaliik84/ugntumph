@@ -73,3 +73,19 @@
     flex-direction: row-reverse;
 }
 
+.info__button {
+    background-color: #D9D9D9;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    border-radius: 53px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 28.12px 75px 38.12px 75px;
+    max-width: 605px;
+    max-height: 106px;
+    white-space: nowrap;
+}
