@@ -30,7 +30,7 @@
                     <button class="description__button">Связаться со мной</button>
                 </div>
                 <div class="description__image">
-                    <img src="https://png.klev.club/uploads/posts/2024-05/png-klev-club-077s-p-osel-shrek-png-23.png" alt="avatar"
+                    <img src="" alt="avatar"
                         class="description__profile_photo">
                 </div>
             </div>
@@ -72,6 +72,7 @@
             </div>
         </div>
     </section>
+
 
     <section id="works" class="info">
         <div class="container">
@@ -122,9 +123,40 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+ 
+    
+        <div class= "info__text">
+        <button class="info__button">Добавить проект</button>
+</div>
 
+</section>
+        <div class="modal js-modal">
+        <div class="modal__bg"></div>
+        <div class="modal__wrap">
+        
+          <div>
+            <div>
+                <input type="text" id="name">
+                <input type="text" id="description">
+                <input type="text" id="link">
+            </div>
+            <button>Добавить проект</button>
+          </div>
+        
+          <button type="info__button" class="modal__close">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <rect width="40" height="40" rx="20" ></rect>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.2929 12.2929C12.6834 11.9024 13.3166 11.9024 13.7071 12.2929L20 18.5858L26.2929 12.2929C26.6834 11.9024 27.3166 11.9024 27.7071 12.2929C28.0976 12.6834 28.0976 13.3166 27.7071 13.7071L21.4142 20L27.7071 26.2929C28.0976 26.6834 28.0976 27.3166 27.7071 27.7071C27.3166 28.0976 26.6834 28.0976 26.2929 27.7071L20 21.4142L13.7071 27.7071C13.3166 28.0976 12.6834 28.0976 12.2929 27.7071C11.9024 27.3166 11.9024 26.6834 12.2929 26.2929L18.5858 20L12.2929 13.7071C11.9024 13.3166 11.9024 12.6834 12.2929 12.2929Z"
+                fill="black"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        </div>
+        
     <section id="contacts" class="connection">
         <div class="container">
             <div class="connection__text">
@@ -168,8 +200,19 @@
             </div>
         </div>
     </section>
-
-    <low class="low_low">
+    <section class="quotes">
+        <h2 class="quotes__title">Мои любимые цитаты</h2>
+        <ul class="quotes__list">
+            
+        </ul>
+        <label for="authors-dropdown">Выберите автора:</label>
+        <select id="authors-dropdown">
+            <option value="">Случайный автор</option>
+        
+        </select>
+        <button id="random-quotes-button">Случайные цитаты</button>
+    </section>
+    <footer class="low_low">
         <div class="container">
             <div class="low__content">
                 <div class="low__nickname">@NICKNAME</div>
@@ -180,8 +223,8 @@
                 </nav>
             </div>
         </div>
-    </low>
-
+    </footer>
+<script src="1.js"></script>
 </body>
 
 </html>
