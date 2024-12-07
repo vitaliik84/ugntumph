@@ -50,6 +50,7 @@ function addProject() {
     alert('Пожалуйста, заполните все поля.');
   }
 }
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", function() {
   const quotesList = document.querySelector(".quotes__list");
   const authorsDropdown = document.querySelector("#authors-dropdown");
@@ -133,3 +134,5 @@ document.addEventListener("DOMContentLoaded", function() {
   // Загрузка случайных цитат при загрузке страницы
   loadRandomQuotes();
 });
+=======
+>>>>>>> 8f117d43bfa4fbd45f441f1f939db8618d28eecb
