@@ -50,15 +50,15 @@ function addProject() {
     alert('Пожалуйста, заполните все поля.');
   }
 }
-<<<<<<< HEAD
+
 document.addEventListener("DOMContentLoaded", function() {
   const quotesList = document.querySelector(".quotes__list");
   const authorsDropdown = document.querySelector("#authors-dropdown");
   const randomQuotesButton = document.querySelector("#random-quotes-button");
   let authorsSet = new Set();
-  let cachedQuotes = []; // Массив для сохранения загруженных цитат
+  let cachedQuotes = []; 
 
-  // Функция для загрузки 10 цитат одним запросом
+
   async function fetchBulkQuotes() {
       try {
           const response = await fetch("https://programming-quotesapi.vercel.app/api/bulk");
@@ -73,9 +73,9 @@ document.addEventListener("DOMContentLoaded", function() {
       }
   }
 
-  // Функция для загрузки и отображения 10 случайных цитат
+
   async function loadRandomQuotes() {
-      quotesList.innerHTML = ""; // Очищаем список цитат
+      quotesList.innerHTML = ""; 
       authorsSet.clear();
       authorsDropdown.innerHTML = ""; // Очищаем список авторов
       cachedQuotes = []; // Сбрасываем кэшированные цитаты
@@ -102,9 +102,8 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   }
 
-  // Функция для загрузки и отображения цитат определённого автора
   function loadQuotesByAuthor(author) {
-      quotesList.innerHTML = ""; // Очищаем список цитат
+      quotesList.innerHTML = ""; 
       let authorQuotes = cachedQuotes.filter(quote => quote.author === author);
 
       if (authorQuotes.length === 0) {
@@ -134,5 +133,3 @@ document.addEventListener("DOMContentLoaded", function() {
   // Загрузка случайных цитат при загрузке страницы
   loadRandomQuotes();
 });
-=======
->>>>>>> 8f117d43bfa4fbd45f441f1f939db8618d28eecb

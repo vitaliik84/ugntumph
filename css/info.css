@@ -5,6 +5,7 @@
     min-height: calc(100vh - 144px);
     display: flex;
     align-items: center;
+    ma
 }
 
 .info__text {
@@ -88,4 +89,5 @@
     max-width: 605px;
     max-height: 106px;
     white-space: nowrap;
+    margin: 20px;
 }
